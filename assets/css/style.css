@@ -2,19 +2,21 @@
     background-color: black;
     padding-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    background: url('../imgs/background4.jpeg') no-repeat;
+    /* background: url('../imgs/background4.jpeg') no-repeat; */
     background-size: cover;
 }
 
 .crystal-image {
   width: 100px;
   height: 100px;
+  border-radius: 15px;
 }
 
 h1,h2,h3,
 h4,h5,h6 {
     padding: 5px;
 }
+
 
 
 #currentWord {
