@@ -1,5 +1,4 @@
   body {
-    background-color: black;
     padding-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
     background: url('../imgs/background.jpeg') no-repeat;
@@ -17,23 +16,18 @@ h4,h5,h6 {
     padding: 5px;
 }
 
-
-
 #currentWord {
     letter-spacing: 10px;
 }
-
 
 .gameplay-column-right {
     text-align: left;
     margin-top: 20px;
     min-height: 550px;
-    border: 3px, black;
 }
 
 .gameplay-column-left {
     text-align: center;
     margin-top: 20px;
     min-height: 550px;
-    border: 3px, black;
 }
