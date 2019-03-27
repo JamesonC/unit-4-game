@@ -25,13 +25,13 @@ $(`.crystal-image`).click(function () {
 
     $(`#totalScore`).text(counter);
     if (counter === targetNumber) {
-        alert("You win!");
+        swal("You Win!", "I bet you have an IQ of 145...", "success");
         resetGame();
         totalWins++;
         $(`#totalWins`).text(totalWins) = totalWins;
 
     } else if (counter >= targetNumber) {
-        alert("You lose!");
+        swal("You Lose!", "Let's try this again shall we...", "error");
         resetGame();
         totalLosses++;
         $(`#totalLosses`).text(totalLosses) = totalLosses;
