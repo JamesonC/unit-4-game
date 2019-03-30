@@ -1,5 +1,7 @@
 # unit-4-game
 
+This simple game was written with Javascript, jQuery, & HTML.
+
 You will be given a random number at the start of the game.
 
 There are four crystals. By clicking on a crystal you will add a specific amount of points to your total score.
